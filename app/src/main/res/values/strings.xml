@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="top_movies">Top Movies</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="error_internet_connection">There was a problem with the internet connection, to try again, please press a button in the right top corner.</string>
+    <string name="rating">"Rating: "</string>
+</resources>
