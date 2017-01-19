@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
     private TextView mErrorMessageDisplay;
     private ProgressBar mLoadingIndicator;
     ArrayList<Movie> mMovies;
-    String searchURL = "http://api.themoviedb.org/3/movie/top_rated?api_key=c8554df4e230ea7a19b1bcf1ad352dd7";
+    String searchURL = "http://api.themoviedb.org/3/movie/top_rated?api_key=*****************";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,11 +136,11 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
         int id = item.getItemId();
 
         if (id == R.id.top_movies_menu_option) {
-            searchURL = "http://api.themoviedb.org/3/movie/top_rated?api_key=c8554df4e230ea7a19b1bcf1ad352dd7";
+            searchURL = "http://api.themoviedb.org/3/movie/top_rated?api_key=****************";
             fireOffNetworkTask();
             return true;
         } else if (id == R.id.most_popular_movies_menu_option) {
-            searchURL = "http://api.themoviedb.org/3/movie/popular?api_key=c8554df4e230ea7a19b1bcf1ad352dd7";
+            searchURL = "http://api.themoviedb.org/3/movie/popular?api_key=**********************";
             fireOffNetworkTask();
             return true;
         }
